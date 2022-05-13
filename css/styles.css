@@ -300,7 +300,6 @@ border-radius: 2px ;
        height: 45px;
        border: 1px solid rgba(33, 33, 33, 0.2);
        border-radius: 4px;
-       margin-bottom: 10px;
        padding-left: 42px;
        font: inherit;
        outline: none;
@@ -327,8 +326,12 @@ fill: var(--accent-color);
 }
 
     .form-field{
-      position:relative; 
+      position:relative;
+      margin-bottom: 10px; 
       
+    }
+    .fotm-field:last-child{
+        margin-bottom: 20px;
     }
    .form-label{
     display:block;
@@ -343,16 +346,16 @@ fill: var(--accent-color);
    }
 .form-input-icons{
     position:absolute;
-    top:50%;
+    top:62%;
     left: 15px;
     transform: translateY(-50%);
      }
 .comment{
+   display:block;
     width: 100%;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    margin-bottom: 10px;
     padding: 12px 16px;
     resize: none;
     outline: none;
@@ -374,8 +377,8 @@ fill: var(--accent-color);
     color: #757575;
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
-}
+    justify-content: center;
+    }
 .check-text span{
 width: 16px;
 height: 15px;
@@ -805,6 +808,7 @@ margin-bottom: 9px;
 
 .first-part-footer{
     margin-right: 70px;
+    
 }
 
 .join-title{
